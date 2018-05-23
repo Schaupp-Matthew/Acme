@@ -1,0 +1,278 @@
+body{
+    background-image: url("/acme/images/site/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: comic, sans-serif, fantasy;
+}
+
+main{
+    background-color: #ffffff;
+    max-width: 90%;
+    max-height: 90%;
+    opacity: 0.9;
+    margin: auto;
+    padding: 2%;    
+}
+
+footer {
+    padding-left: 30px;
+}
+
+hr {
+    height: 5px;
+    background-color: #000;
+}
+
+.topHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+#logo {
+    max-width: 60%;
+}
+
+#folder {
+    max-width: 15%;
+}
+
+.folderLink {
+    padding-left: 10px;
+}
+
+.logoutLink {
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    background: #de2226;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    color: #ffffff;
+    padding: 0px;
+}
+
+.navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid #ffffff;
+}
+
+.navigation a:hover {
+    background: #ffffff;
+    color: #de2226;
+    border: 2px solid #de2226;
+}
+
+.coyote {
+    max-width: 100%;
+    min-height: 500px;
+    background-image: url("/acme/images/site/rocketfeature.jpg");
+    background-size: cover;
+}
+
+.overlay {
+    max-width: 30%;
+    position: absolute;
+    margin: 0;
+    padding-left: 0;
+    right: 5.5%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    opacity: .75;
+    text-align: center;
+    font-size: 75%;
+    list-style: none;
+}
+
+#actionbtn {max-width: 100%;}
+
+.content-2 {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    flex-flow: row nowrap;
+}
+
+.recipeContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.recipe {
+    background-color: #808080;
+    margin: 1px;
+    width: 49%;
+}
+
+.recipe img {
+    display: block;
+    margin: auto;
+}
+
+.recipe p {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+.Button {
+    background: #de2226;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.Button:active {
+    background: #ffffff;
+    color: #de2226;
+}
+
+.Input {
+    background: #de2226;
+    color: #ffffff;
+}
+
+#registration {
+    background: #de2226;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.inputNote {
+    font-size: .75em;
+    color: red;
+    font-style: italic;
+}
+
+.message {
+    color: red;
+    font-style: italic;
+}
+
+thead {
+    background-color: #cbcbcb;
+}
+
+.shade {
+    background-color: #cbcbcb;
+}
+
+.white {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .navigation {
+        list-style: none;
+        margin: 0;
+        background: #de2226;
+        display: flex;
+        flex-flow: column wrap;
+        color: #ffffff;
+    }
+    
+    .navigation a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1em;
+        text-align: center;
+        display: block;
+        padding: 5px;
+        border: 2px solid #ffffff;
+    }
+    
+    .coyote {
+        max-width: 100%;
+        min-height: 400px;
+        background-image: url("/acme/images/site/rocketfeature.jpg");
+        background-size: cover;
+    }
+    
+    .overlay {
+        max-width: 30%;
+        position: absolute;
+        margin: 0;
+        padding-left: 0;
+        right: 5.5%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        opacity: .75;
+        text-align: center;
+        font-size: 75%;
+        list-style: none;
+    }
+    
+    .content-2 {
+        display: flex;
+        max-width: 100%;
+        justify-content: space-around;
+        flex-flow: column wrap;
+    }
+}
+    
+@media screen and (max-width: 480px) {
+    
+    .navigation {
+        list-style: none;
+        margin: 0;
+        background: #de2226;
+        display: flex;
+        flex-flow: column wrap;
+        color: #ffffff;
+    }
+    
+    .navigation a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1em;
+        text-align: center;
+        display: block;
+        padding: 5px;
+        border: 2px solid #ffffff;
+    }
+    
+    .coyote {
+        max-width: 100%;
+        min-height: 200px;
+        background-image: url("/acme/images/site/rocketfeature.jpg");
+        background-size: cover;
+    }
+    
+    .overlay {
+        max-width: 30%;
+        position: absolute;
+        margin: 0;
+        padding-left: 0;
+        right: 6%;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        opacity: .75;
+        text-align: center;
+        font-size: 75%;
+        list-style: none;
+    }
+}
